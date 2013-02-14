@@ -43,6 +43,7 @@
     <Reference Include="System.Web.Mobile" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="detail.aspx" />
     <Content Include="news.aspx" />
     <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
     <Content Include="Scripts\jquery-1.4.1.js" />
@@ -56,6 +57,13 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="detail.aspx.cs">
+      <DependentUpon>detail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="detail.aspx.designer.cs">
+      <DependentUpon>detail.aspx</DependentUpon>
+    </Compile>
     <Compile Include="news.aspx.cs">
       <DependentUpon>news.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
